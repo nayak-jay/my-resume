@@ -1,0 +1,114 @@
+body{
+  background-color: cadetblue;
+}
+
+.heading{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  margin-left:2px;
+}
+
+.page{
+  font-family: 'Times New Roman';
+  font-size: 16px;
+  margin-left: 30px;
+  margin-bottom: 4px;
+}
+
+img{
+  height: 20px;
+  width: 20px;
+}
+
+.flex{
+ display:flex;
+ flex-direction: row;
+ margin-right: 20px;
+ margin-bottom: 30px;
+}
+
+.space{
+  flex: 1;
+}
+
+.declaration-margin{
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.career-margin{
+  margin-left: 100px;
+}
+
+.page{
+  margin-top: 215px;
+  margin-left:280px;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  position:fixed;
+  left:0px;
+  right: 0px;
+  top:0px;
+  z-index: 10;
+  background-color:rgb(248, 205, 126);
+  padding:20px
+}
+
+.name{
+  font-family: 'Times New Roman';
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.my-image{
+  height: 150px;
+  width: 150px;
+  border-radius:75px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.sidebar{
+  background-color:rgb(248, 205, 126) ;
+  border-right-style: solid;
+  border-right-width:1px;
+  position: fixed;
+  left: 0px;
+  width: 220px;
+  bottom: 0px;
+  top: 190px;
+  z-index: 5;
+  display:flex;
+  flex-direction: column;
+  padding-left: 20px;
+  padding-top: 20px;
+  gap: 20px;
+  font-family: 'Times New Roman';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.sidebar-info{
+  display: flex;
+  flex-direction: row;
+  margin-bottom:20px;
+}
+
+.sidebar-info img{
+  border-radius: 10px;
+  margin-right: 2px;
+}
+
+
+
+
+
+
+
